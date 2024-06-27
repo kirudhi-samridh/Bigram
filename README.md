@@ -2,10 +2,10 @@
 This project implements a simple character-level language model using PyTorch. The model is trained on a dataset of names and can generate new names based on the learned patterns.
 
 # Table of Contents
-- [Overview]([#overview]) 
-- [Requirements]([#requirements])
-- [Installation and Usage]([#installation-and-usage])
-- [Code Explanation]([#code-explanation])
+- [Overview](#overview) 
+- [Requirements](#requirements)
+- [Installation and Usage](#installation-and-usage)
+- [Code Explanation](#code-explanation)
 
 # Overview
 The character-level language model reads a list of names, processes them into sequences of character pairs(bigrams), and trains a simple neural network to predict the next character in a sequence. The model can then generate new names by sampling from the learned probability distributions.
